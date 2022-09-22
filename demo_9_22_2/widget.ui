@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1144</width>
+    <height>658</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>391</width>
+     <height>86</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="title">
+       <string>性别</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QRadioButton" name="radioButtonMan">
+         <property name="text">
+          <string>男</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButtonWoman">
+         <property name="text">
+          <string>女</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="title">
+       <string>婚姻</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QRadioButton" name="radioButtonYes">
+         <property name="text">
+          <string>已婚</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButtonNo">
+         <property name="text">
+          <string>未婚</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer_3">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>160</y>
+     <width>256</width>
+     <height>192</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTreeWidget" name="treeWidget">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>160</y>
+     <width>256</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string notr="true">英雄</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>英雄介绍</string>
+    </property>
+   </column>
+   <item>
+    <property name="text">
+     <string>猪女</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>打野</string>
+     </property>
+     <property name="text">
+      <string>坦克、控制</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>辅助</string>
+     </property>
+     <property name="text">
+      <string>控制、坦克</string>
+     </property>
+    </item>
+   </item>
+   <item>
+    <property name="text">
+     <string>皇子</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>打野</string>
+     </property>
+     <property name="text">
+      <string>战士、控制</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>上路</string>
+     </property>
+     <property name="text">
+      <string>战士</string>
+     </property>
+    </item>
+   </item>
+   <item>
+    <property name="text">
+     <string>蝎子</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>打野</string>
+     </property>
+     <property name="text">
+      <string>控制</string>
+     </property>
+    </item>
+   </item>
+  </widget>
+  <widget class="QTreeWidget" name="treeWidgetPlus">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>160</y>
+     <width>256</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string notr="true">1</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>430</y>
+     <width>401</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>英雄</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>性别</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>年龄</string>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="text">
+     <string>刘备</string>
+    </property>
+   </item>
+   <item row="0" column="1">
+    <property name="text">
+     <string>男</string>
+    </property>
+   </item>
+   <item row="0" column="2">
+    <property name="text">
+     <string>22</string>
+    </property>
+   </item>
+   <item row="1" column="0">
+    <property name="text">
+     <string>关羽</string>
+    </property>
+   </item>
+   <item row="1" column="1">
+    <property name="text">
+     <string>男</string>
+    </property>
+   </item>
+   <item row="1" column="2">
+    <property name="text">
+     <string>18</string>
+    </property>
+   </item>
+   <item row="2" column="0">
+    <property name="text">
+     <string>张飞</string>
+    </property>
+   </item>
+   <item row="2" column="1">
+    <property name="text">
+     <string>男</string>
+    </property>
+   </item>
+   <item row="2" column="2">
+    <property name="text">
+     <string>16</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
