@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>429</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QTreeWidget" name="treeWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>381</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string notr="true">英雄</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>英雄介绍</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>难度</string>
+    </property>
+   </column>
+   <item>
+    <property name="text">
+     <string>德玛</string>
+    </property>
+    <property name="text">
+     <string>坦克、抗伤</string>
+    </property>
+    <property name="text">
+     <string>1星</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>上单</string>
+     </property>
+    </item>
+   </item>
+   <item>
+    <property name="text">
+     <string>盲僧</string>
+    </property>
+    <property name="text">
+     <string>战士、控制</string>
+    </property>
+    <property name="text">
+     <string>5星</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>打野</string>
+     </property>
+    </item>
+   </item>
+   <item>
+    <property name="text">
+     <string>卢锡安</string>
+    </property>
+    <property name="text">
+     <string>ADC、输出</string>
+    </property>
+    <property name="text">
+     <string>3星</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>下双</string>
+     </property>
+    </item>
+   </item>
+  </widget>
+  <widget class="QTreeWidget" name="treeWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>210</y>
+     <width>381</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string notr="true">1</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
